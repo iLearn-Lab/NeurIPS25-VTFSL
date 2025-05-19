@@ -48,15 +48,16 @@ pip instal -r requirements.txt
 
 # Datasets
 
-- Dataset: [Google Cloud](https://drive.google.com/drive/folders/1xmXqS5AZAJpifyg2uyTnTXgWXeK9HthG?usp=drive_link) 
+- Link: [Google Cloud](https://drive.google.com/drive/folders/1xmXqS5AZAJpifyg2uyTnTXgWXeK9HthG?usp=drive_link) 
 - Please download the dataset you need and then put the xxx.tar.gz in ./dataset directory:
 ```python
 cd ./dataset
 tar -xvzf xxx.tar.gz
 ```
 
-# Textual and visual prompts
-
+# Synthetic Images
+- Link: [Google Cloud](https://drive.google.com/drive/folders/18hCmtaQ-JDCCpcnwSlQSyZitt1Ja2rVy?usp=drive_link) 
+- Please download the directory you need and then put them in ./data directory:
 
 
 # Reproducing Results with Pretrained Checkpoints
@@ -64,8 +65,8 @@ To directly reproduce the results reported in the paper using our trained models
 
 1. Download Weights
 
-- Pre-training and Meta-tuning weights: [Google Cloud](https://drive.google.com/drive/folders/1qvXTPBmiw3Rb4Aj2uopvYKri4fm7-X2I?usp=sharing)
-- Please download checkpoints and then put them into ./checkpoints directory.
+- Pre-training and meta-tuning weights: [Google Cloud](https://drive.google.com/drive/folders/1qvXTPBmiw3Rb4Aj2uopvYKri4fm7-X2I?usp=sharing)
+- Please download checkpoints you need and then put them into ./checkpoints directory.
 
 2. Run Inference
 Run the evaluation script with the desired settings. For example, to evaluate on the miniImageNet dataset with a 5-way 5-shot configuration:
