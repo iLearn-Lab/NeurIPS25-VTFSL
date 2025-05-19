@@ -1,0 +1,8 @@
+# Ensure Python version >= 3.8
+torch>=1.7.1
+tensorboard
+timm
+scipy
+einops
+scikit-learn
+pandas
