@@ -48,7 +48,7 @@ pip instal -r requirements.txt
 
 # Datasets
 
-- Link: [Google Cloud](https://drive.google.com/drive/folders/1xmXqS5AZAJpifyg2uyTnTXgWXeK9HthG?usp=drive_link) 
+- Link: [Google Cloud](https://drive.google.com/drive/folders/1bEK1XzOXCnpMH-5G3pv9S0Nm5RvWDzzW?usp=drive_link) 
 - Please download the dataset you need and then put the xxx.tar.gz in ./dataset directory:
 ```python
 cd ./dataset
@@ -56,7 +56,7 @@ tar -xvzf xxx.tar.gz
 ```
 
 # Synthetic Images
-- Link: [Google Cloud](https://drive.google.com/drive/folders/18hCmtaQ-JDCCpcnwSlQSyZitt1Ja2rVy?usp=drive_link) 
+- Link: [Google Cloud](https://drive.google.com/drive/folders/1ySwBWpM0pu3BBdlZqDvS4YgCjSpcrd4X?usp=drive_link) 
 - Please download the directory you need and then put them in ./data directory:
 
 
@@ -65,7 +65,7 @@ To directly reproduce the results reported in the paper using our trained models
 
 1. Download Weights
 
-- Pre-training and meta-tuning weights: [Google Cloud](https://drive.google.com/drive/folders/1qvXTPBmiw3Rb4Aj2uopvYKri4fm7-X2I?usp=sharing)
+- Pre-training and meta-tuning weights: [Google Cloud](https://drive.google.com/drive/folders/1jWPbFQMoYcm1hYB8FKmmGz1K4ywhDppi?usp=drive_link)
 - Please download checkpoints you need and then put them into ./checkpoints directory.
 
 2. Run Inference
