@@ -7,19 +7,19 @@ We propose a novel framework, bridging Vision and Text with LLMs for Few-Shot Le
 
 1. **VT-FSL Intuition**
 
-<img src='img/fig1.png'>
+<img src='img/img1.jpg'>
 
 2. **VT-FSL Overview**
 
-<img src='img/fig2.png'>
+<img src='img/img2.jpg'>
 
 ## Standard Few-Shot Classification Results
 |  Dataset  | 1-Shot 5-Way | 5-Shot 5-Way |  
 |:--------:|:------------:|:------------:|
-| FC100 |    57.99 ± 0.40     |    67.68 ± 0.38    |
-|  CIFAR-FS  |     88.67 ± 0.33     |     91.45 ± 0.46    |
 | MiniImageNet |    83.66 ± 0.31     |     88.38 ± 0.25    |
+|  CIFAR-FS  |     88.67 ± 0.33     |     91.45 ± 0.46    |
 | TieredImageNet |      88.02 ± 0.34     |     91.97 ± 0.27    |
+| FC100 |    57.99 ± 0.40     |    67.68 ± 0.38    |
 
 ## Fine-grained Few-Shot Classification Results
 |  Dataset  | 1-Shot 5-Way | 5-Shot 5-Way |  
@@ -55,6 +55,9 @@ cd ./dataset
 tar -xvzf xxx.tar.gz
 ```
 
+# Textual and visual prompts
+
+
 
 # Reproducing Results with Pretrained Checkpoints
 To directly reproduce the results reported in the paper using our trained models:
@@ -80,6 +83,10 @@ This will evaluate the pretrained model on 2000 few-shot episodes using the spec
 
 3. Expected Results
 You should observe performance consistent with the results reported in our paper. If results slightly vary, it may be due to sampling randomness; we recommend running with a fixed seed or averaging over multiple runs.
+
+# Coming Soon
+We are actively working on releasing **more pretrained weights** across additional datasets (e.g., tieredImageNet, CUB, FC100), as well as the **generated class descriptions and synthetic images** used in VT-FSL. These resources will be made publicly available to further support reproducibility and research on multimodal few-shot learning.
+Stay tuned for updates!
 
 
 
