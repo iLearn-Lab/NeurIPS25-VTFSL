@@ -5,13 +5,6 @@
 
 We propose a novel framework, bridging Vision and Text with LLMs for Few-Shot Learning (VT-FSL), which constructs precise cross-modal prompts conditioned on Large Language Models (LLMs) and support images, seamlessly integrating them through a geometry-aware alignment mechanism.
 
-1. **VT-FSL Intuition**
-
-<img src='img/img1.jpg'>
-
-2. **VT-FSL Overview**
-
-<img src='img/img2.jpg'>
 
 ## Standard Few-Shot Classification Results
 |  Dataset  | 1-Shot 5-Way | 5-Shot 5-Way |  
@@ -48,7 +41,7 @@ pip instal -r requirements.txt
 
 # Datasets
 
-- Link: [Google Cloud](https://drive.google.com/drive/folders/1bEK1XzOXCnpMH-5G3pv9S0Nm5RvWDzzW?usp=drive_link) 
+- Download link: [Google Cloud](https://drive.google.com/drive/folders/1bEK1XzOXCnpMH-5G3pv9S0Nm5RvWDzzW?usp=drive_link) 
 - Please download the dataset you need and then put the xxx.tar.gz in ./dataset directory:
 ```python
 cd ./dataset
@@ -56,17 +49,17 @@ tar -xvzf xxx.tar.gz
 ```
 
 # Synthetic Images
-- Link: [Google Cloud](https://drive.google.com/drive/folders/1ySwBWpM0pu3BBdlZqDvS4YgCjSpcrd4X?usp=drive_link) 
+- Download link: [Google Cloud](https://drive.google.com/drive/folders/1ySwBWpM0pu3BBdlZqDvS4YgCjSpcrd4X?usp=drive_link) 
 - Please download the directory you need and then put them in ./data directory:
 
 
 # Reproducing Results with Pretrained Checkpoints
 To directly reproduce the results reported in the paper using our trained models:
 
-1. Download Weights
+1. Pre-training and meta-tuning checkpoints
 
-- Pre-training and meta-tuning weights: [Google Cloud](https://drive.google.com/drive/folders/1jWPbFQMoYcm1hYB8FKmmGz1K4ywhDppi?usp=drive_link)
-- Please download checkpoints you need and then put them into ./checkpoints directory.
+- Download link: [Google Cloud](https://drive.google.com/drive/folders/1jWPbFQMoYcm1hYB8FKmmGz1K4ywhDppi?usp=drive_link)
+- Please download the checkpoints you need and then put them into ./checkpoints directory.
 
 2. Run Inference
 Run the evaluation script with the desired settings. For example, to evaluate on the miniImageNet dataset with a 5-way 5-shot configuration:
