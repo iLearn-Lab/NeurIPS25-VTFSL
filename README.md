@@ -64,7 +64,7 @@ To directly reproduce the results reported in the paper using our trained models
 2. Run Inference
 Run the evaluation script with the desired settings. For example, to evaluate on the miniImageNet dataset with a 5-way 5-shot configuration:
 ```python
-python method/test.py \
+python test.py \
     --dataset miniImageNet \
     --way 5 \
     --shot 5 \
@@ -90,7 +90,7 @@ If you prefer to train the model from scratch instead of using the provided pret
 1. Pre-train the Feature Extractor
 Run the following command to pre-train the visual backbone on the base split of miniImageNet:
 ```python
-python method/pretrain.py \
+python pretrain.py \
     --dataset miniImageNet \
     --batch_size 512 \
     --image_size 224 \
@@ -105,7 +105,7 @@ python method/pretrain.py \
 After pretraining, meta-tune the model for few-shot learning using the episodic training strategy.
 - For 5-way 1-shot setting:
 ```python
-python method/train.py \
+python train.py \
     --dataset miniImageNet \
     --way 5 \
     --shot 1 \
@@ -120,7 +120,7 @@ python method/train.py \
 
 - For 5-way 5-shot setting:
 ```python
-python method/train.py \
+python train.py \
     --dataset miniImageNet \
     --way 5 \
     --shot 5 \
