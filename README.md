@@ -1,5 +1,10 @@
-# VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning
+# [VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning]()
 
+## ***NeurIPS 2025***
+
+![](https://img.shields.io/badge/Platform-PyTorch-blue)
+![](https://img.shields.io/badge/Language-Python-{green}.svg)
+![](https://img.shields.io/npm/l/express.svg)
 
 # Method
 
