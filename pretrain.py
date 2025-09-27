@@ -1,5 +1,6 @@
 import argparse
 import os
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--seed', type=int, default=12345)
 parser.add_argument('--name', default='') 
