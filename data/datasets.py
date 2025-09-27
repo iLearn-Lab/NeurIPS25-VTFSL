@@ -97,4 +97,5 @@ class Datasets(Dataset):
 if __name__ == '__main__':
     dataset= Datasets('CIFAR-FS', split='train')
     #print(dataset)
+    
     print(len(dataset.dataset.classes))
