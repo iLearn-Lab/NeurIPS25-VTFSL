@@ -83,5 +83,6 @@ class MultiTrans:
         out = []
         for trans in self.trans:
             out.append(trans(x))
+            
         return out
 
