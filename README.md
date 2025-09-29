@@ -6,14 +6,13 @@
 ![](https://img.shields.io/badge/Language-Python-{green}.svg)
 ![](https://img.shields.io/npm/l/express.svg)
 
-An official implementation code of "VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning" 
 
-# Method
+This repo is the official code implementation of the NeurIPS 2025 paper "VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning". [[paper]]() [[ArXiv]]().
 
 We propose a novel framework, bridging Vision and Text with LLMs for Few-Shot Learning (VT-FSL), which constructs precise cross-modal prompts conditioned on Large Language Models (LLMs) and support images, seamlessly integrating them through a geometry-aware alignment mechanism.
 
 
-## Standard Few-Shot Classification Results
+### Standard Few-Shot Classification Results
 |  Dataset  | 1-Shot 5-Way | 5-Shot 5-Way |  
 |:--------:|:------------:|:------------:|
 | MiniImageNet |    83.66 ± 0.31     |     88.38 ± 0.25    |
@@ -21,14 +20,14 @@ We propose a novel framework, bridging Vision and Text with LLMs for Few-Shot Le
 | TieredImageNet |      88.02 ± 0.34     |     91.97 ± 0.27    |
 | FC100 |    57.99 ± 0.40     |    67.68 ± 0.38    |
 
-## Fine-grained Few-Shot Classification Results
+### Fine-grained Few-Shot Classification Results
 |  Dataset  | 1-Shot 5-Way | 5-Shot 5-Way |  
 |:--------:|:------------:|:------------:|
 | CUB |    91.08 ± 0.28     |    94.63 ± 0.19    |
 |  Dogs  |     86.58 ± 0.30     |     90.69 ± 0.25     |
 | Cars |    92.95 ± 0.24     |     96.62 ± 0.15    |
 
-## Cross Domain Few-shot Classification Results
+### Cross Domain Few-shot Classification Results
 |  Dataset  | 1-Shot 5-Way | 5-Shot 5-Way |  
 |:--------:|:------------:|:------------:|
 | CUB      |    66.86 ± 0.47     |    81.02 ± 0.36     |
@@ -36,7 +35,8 @@ We propose a novel framework, bridging Vision and Text with LLMs for Few-Shot Le
 |  Plantae |    45.90 ± 0.40     |    61.54 ± 0.38    |
 
 
-# Requirements
+## Usage
+### Requirements
 
 - [PyTorch and torchvision](https://pytorch.org)
 
@@ -46,7 +46,7 @@ pip instal -r requirements.txt
 ```
 
 
-# Datasets
+### Datasets
 
 - Download link: [Google Cloud](https://drive.google.com/drive/folders/1bEK1XzOXCnpMH-5G3pv9S0Nm5RvWDzzW?usp=drive_link) 
 - Please download the dataset you need and then put the xxx.tar.gz in ./dataset directory:
@@ -55,12 +55,12 @@ cd ./dataset
 tar -xvzf xxx.tar.gz
 ```
 
-# Synthetic Images
+### Synthetic Images
 - Download link: [Google Cloud](https://drive.google.com/drive/folders/1ySwBWpM0pu3BBdlZqDvS4YgCjSpcrd4X?usp=drive_link) 
 - Please download the directory you need and then put them in ./data directory:
 
 
-# Reproducing Results with Pretrained Checkpoints
+### Reproducing Results with Pretrained Checkpoints
 To directly reproduce the results reported in the paper using our trained models:
 
 1. Pre-training and meta-tuning checkpoints
@@ -85,13 +85,13 @@ This will evaluate the pretrained model on 2000 few-shot episodes using the spec
 3. Expected Results
 You should observe performance consistent with the results reported in our paper. If results slightly vary, it may be due to sampling randomness; we recommend running with a fixed seed or averaging over multiple runs.
 
-# Coming Soon
+### Coming Soon
 We are actively working on releasing **more pretrained weights** across additional datasets (e.g., tieredImageNet, CUB, FC100), as well as the **generated class descriptions and synthetic images** used in VT-FSL. These resources will be made publicly available to further support reproducibility and research on multimodal few-shot learning.
 Stay tuned for updates!
 
 
 
-# Training from Scratch
+### Training from Scratch
 If you prefer to train the model from scratch instead of using the provided pretrained weights, follow the two-stage training process described below. We provide example scripts for the miniImageNet dataset.
 
 1. Pre-train the Feature Extractor
@@ -142,7 +142,11 @@ python train.py \
 After training, the model checkpoints will be automatically saved for evaluation.
 
 
+## Citation
+If you find the code helpful in your resarch or work, please cite the following paper.
+```
 
+```
 
 
 
