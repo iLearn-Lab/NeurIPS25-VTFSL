@@ -7,7 +7,7 @@
 ![](https://img.shields.io/npm/l/express.svg)
 
 
-This repo is the official code implementation of the NeurIPS 2025 paper "VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning". [[ArXiv]](https://arxiv.org/abs/2509.25033) [[paper]]() .
+This repo is the official code implementation of the NeurIPS 2025 paper "VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning". [[arXiv]](https://arxiv.org/abs/2509.25033) [[paper]]()
 
 We propose a novel framework, bridging Vision and Text with LLMs for Few-Shot Learning (VT-FSL), which constructs precise cross-modal prompts conditioned on Large Language Models (LLMs) and support images, seamlessly integrating them through a geometry-aware alignment mechanism.
 
