@@ -148,11 +148,11 @@ After training, the model checkpoints will be automatically saved for evaluation
 ## Citation
 If you find this repo helpful in your research or work, please cite the following paper.
 ```
-@article{li2025vtfsl,
-      title={VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning}, 
-      author={Wenhao Li and Qiangchang Wang and Xianjing Meng and Zhibin Wu and Yilong Yin},
-      journal={arXiv preprint arXiv:2509.25033},
-      year={2025}
+@article{li2025vt,
+  title={VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning},
+  author={Li, Wenhao and Wang, Qiangchang and Meng, Xianjing and Wu, Zhibin and Yin, Yilong},
+  journal={arXiv preprint arXiv:2509.25033},
+  year={2025}
 }
 ```
 
