@@ -13,7 +13,7 @@ We propose a novel framework, bridging Vision and Text with LLMs for Few-Shot Le
 
 **Poster**
 
-<img src='img/nips_poster.png'>
+<img src='nips_poster.png'>
 
 ### Standard Few-Shot Classification Results
 |  Dataset  | 1-Shot 5-Way | 5-Shot 5-Way |  
