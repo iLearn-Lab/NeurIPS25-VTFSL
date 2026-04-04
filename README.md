@@ -1,4 +1,32 @@
 # [VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning]()
+<a id="top"></a>
+<div align="center">
+    <div>
+  
+  Wenhao&#160;Li<sup>1, 2</sup>,
+  Qiangchang&#160;Wang<sup>1*</sup>,
+  Xianjing&#160;Meng<sup>1</sup>,
+  Zhibin&#160;Wu<sup>1</sup>,
+  Yilong&#160;Yin<sup>1*</sup>
+  
+  </div>
+  <sup>1</sup>School of Software, Shandong University &#160&#160&#160</span> <sup>2</sup>Shenzhen Loop Area Institute&#160&#160&#160</span>
+  <br />
+  <sup>*</sup>Corresponding author&#160;&#160;</span>
+  <br/>
+  <p>
+    <a href="https://openreview.net/pdf/521c2d2f24d89aa54641a2bb0276e4fd1a5cebf4.pdf"><img src="https://img.shields.io/badge/NeurIPS-2025-blue.svg?style=flat-square" alt="NeurIPS 2025"></a>
+    <a href="https://arxiv.org/abs/2509.25033"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2025-b31b1b.svg?style=flat-square"></a>
+    <a href="https://peacelwh.github.io/"><img src="https://img.shields.io/badge/Author_Page-blue.svg?style=flat-square" alt="Author Page"></a>
+    <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"></a>
+    <img src="https://img.shields.io/badge/python-≥3.8-blue?style=flat-square" alt="Python">
+    <a href="https://github.com/peacelwh"><img alt='stars' src="https://img.shields.io/github/stars/peacelwh?style=social"></a>
+  </p>
+
+ 
+</div>
+
+
 
 ## ***NeurIPS 2025***
 
