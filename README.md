@@ -15,14 +15,13 @@
   <sup>*</sup>Corresponding author&#160;&#160;</span>
   <br/>
   <p>
-    <a href="https://openreview.net/pdf/521c2d2f24d89aa54641a2bb0276e4fd1a5cebf4.pdf"><img src="https://img.shields.io/badge/NeurIPS-2025-blue.svg?style=flat-square" alt="NeurIPS 2025"></a>
-    <a href="https://arxiv.org/abs/2509.25033"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-2025-b31b1b.svg?style=flat-square"></a>
-    <a href="https://peacelwh.github.io/"><img src="https://img.shields.io/badge/Author_Page-blue.svg?style=flat-square" alt="Author Page"></a>
-    <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"></a>
-    <img src="https://img.shields.io/badge/python-≥3.8-blue?style=flat-square" alt="Python">
-    <a href="https://github.com/peacelwh"><img alt='stars' src="https://img.shields.io/github/stars/peacelwh?style=social"></a>
-  </p>
-
+  <a href="https://openreview.net/pdf/521c2d2f24d89aa54641a2bb0276e4fd1a5cebf4.pdf"><img src="https://img.shields.io/badge/NeurIPS-2025-blue.svg?style=flat-square" alt="NeurIPS 2025"></a>
+  <a href="https://arxiv.org/abs/2509.25033"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2025-b31b1b.svg?style=flat-square"></a>
+  <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/Platform-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"></a>
+  <img src="https://img.shields.io/badge/Language-Python-green.svg?style=flat-square" alt="Language">
+  <img src="https://img.shields.io/npm/l/express.svg?style=flat-square" alt="License">
+  <a href="https://peacelwh.github.io/"><img src="https://img.shields.io/badge/Author_Page-blue.svg?style=flat-square" alt="Author Page"></a>
+</p>
  
 </div>
 
@@ -30,10 +29,11 @@
 
 ## ***NeurIPS 2025***
 
+<!--
 ![](https://img.shields.io/badge/Platform-PyTorch-blue)
 ![](https://img.shields.io/badge/Language-Python-{green}.svg)
 ![](https://img.shields.io/npm/l/express.svg)
-
+-->
 
 This repo is the official code implementation of the NeurIPS 2025 paper "VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning". [[arXiv]](https://arxiv.org/abs/2509.25033) [[paper]](https://openreview.net/pdf/521c2d2f24d89aa54641a2bb0276e4fd1a5cebf4.pdf)
 
