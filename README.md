@@ -1,8 +1,8 @@
-# [VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning]()
 <a id="top"></a>
 <div align="center">
     <div>
-  
+  <h1 align="center">VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning</h1>
+    <div>
   Wenhao&#160;Li<sup>1, 2</sup>,
   Qiangchang&#160;Wang<sup>1*</sup>,
   Xianjing&#160;Meng<sup>1</sup>,
@@ -30,6 +30,7 @@
 ## ***NeurIPS 2025***
 
 <!--
+# [VT-FSL: Bridging Vision and Text with LLMs for Few-Shot Learning]()
 ![](https://img.shields.io/badge/Platform-PyTorch-blue)
 ![](https://img.shields.io/badge/Language-Python-{green}.svg)
 ![](https://img.shields.io/npm/l/express.svg)
