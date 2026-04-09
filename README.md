@@ -80,7 +80,7 @@ pip instal -r requirements.txt
 
 ### Datasets
 
-- Download link: [Google Cloud](https://drive.google.com/drive/folders/1xmXqS5AZAJpifyg2uyTnTXgWXeK9HthG?usp=drive_link) 
+- Download link: [Hugging Face](https://huggingface.co/datasets/iLearn-Lab/NeurIPS25-VTFS)  or [Google Cloud](https://drive.google.com/drive/folders/1xmXqS5AZAJpifyg2uyTnTXgWXeK9HthG?usp=drive_link) 
 - Please download the dataset you need and then put the xxx.tar.gz in ./dataset directory:
 ```python
 cd ./dataset
@@ -88,7 +88,7 @@ tar -xvzf xxx.tar.gz
 ```
 
 ### Synthetic Images
-- Download link: [Google Cloud](https://drive.google.com/drive/folders/1qvXTPBmiw3Rb4Aj2uopvYKri4fm7-X2I?usp=drive_link) 
+- Download link: [Hugging Face](https://huggingface.co/datasets/iLearn-Lab/NeurIPS25-VTFS)  or [Google Cloud](https://drive.google.com/drive/folders/1xmXqS5AZAJpifyg2uyTnTXgWXeK9HthG?usp=drive_link) 
 - Please download the directory you need and then put them in ./data directory:
 
 
@@ -97,7 +97,7 @@ To directly reproduce the results reported in the paper using our trained models
 
 1. Pre-training and meta-tuning checkpoints
 
-- Download link: [Google Cloud](https://drive.google.com/drive/folders/1qvXTPBmiw3Rb4Aj2uopvYKri4fm7-X2I?usp=drive_link)
+- Download link: [Hugging Face](https://huggingface.co/datasets/iLearn-Lab/NeurIPS25-VTFS)  or [Google Cloud](https://drive.google.com/drive/folders/1xmXqS5AZAJpifyg2uyTnTXgWXeK9HthG?usp=drive_link) 
 - Please download the checkpoints you need and then put them into ./checkpoints directory.
 
 2. Run Inference
