@@ -42,7 +42,10 @@ We propose a novel framework, bridging Vision and Text with LLMs for Few-Shot Le
 
 ## News
 
-🎉 We are excited to share that our paper has been selected for the **VALSE 2026 Poster Session**!  We sincerely welcome everyone who is interested in VT-FSL to stop by our poster, discuss the work with us, and share your thoughts anytime.   Looking forward to meeting you at **VALSE 2026**! 🤗
+🎉 We are excited to share that our paper has been selected for the **[VALSE 2026 Poster Session](https://valser.org/2026/#/)**!
+
+We sincerely welcome everyone who is interested in VT-FSL to stop by our poster, discuss the work with us, and share your thoughts anytime. Looking forward to meeting you at **VALSE 2026**! 🤗
+
 
 
 ## **Poster**
