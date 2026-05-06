@@ -40,6 +40,11 @@ This repo is the official code implementation of the NeurIPS 2025 paper "VT-FSL:
 
 We propose a novel framework, bridging Vision and Text with LLMs for Few-Shot Learning (VT-FSL), which constructs precise cross-modal prompts conditioned on Large Language Models (LLMs) and support images, seamlessly integrating them through a geometry-aware alignment mechanism.
 
+## News
+
+🎉 We are excited to share that our paper has been selected for the **VALSE 2026 Poster Session**!  We sincerely welcome everyone who is interested in VT-FSL to stop by our poster, discuss the work with us, and share your thoughts anytime.   Looking forward to meeting you at **VALSE 2026**! 🤗
+
+
 ## **Poster**
 
 <img src='img.png'>
